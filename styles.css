@@ -123,11 +123,25 @@ footer .container {
 
 @media only screen and (max-width: 470px) {
     .rating h1 {
-        font-size : 2rem;
+        font-size: 2rem;
     }
 
     .gallery img {
         width: 100%;
         margin: 0;
     }
+
+    footer nav {
+        display: none;
+    }
+
+    footer .container {
+        padding: 0;
+    }
+
+    footer .copyright {
+        padding: 10px;
+
+    }
+
 }
